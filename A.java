@@ -1,13 +1,16 @@
 package app_java_1;
 
-public class A{
-	 
-	 int x=9298;
-	public static void main(String []args) {
+public class A {
+	
+	public static void main(String[] args) {
 		
-		A a1=new A();
+		A a1= new A();
+		int x = a1.test();
+		System.out.println(x);
 		
-		System.out.println(a1.x);
-		
+	}
+
+	public int test() {
+		return 634;
 	}
 }
